@@ -204,7 +204,7 @@ button {
     flex-direction: row;
     margin: 65px auto;
     flex-wrap: wrap;
-    row-gap: 30px;
+    row-gap: 33px;
     padding: 70px 70px;
 }
 
@@ -255,7 +255,7 @@ button {
     font-size: 20px;
     text-align: start;
     color: #1B1F2B;
-    padding: 8px 0;
+    padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -267,17 +267,69 @@ button {
     text-align: start;
     align-items: start;
     justify-content: space-between;
-    border-width: 3px;
-    border-color: #1B1F2B;
-    row-gap: 31px;
+    padding: 0 0 8px;
 }
 
 .square .small {
-    /*display: flex;*/
     color: #1B1F2B;
     width: 100%;
     font-size: 400;
     font-size: 20px;
     text-align: start;
-    padding: 22px 11px;
+    padding: 24px 11px;
+}
+
+.square .license {
+    display: flex;
+    color: #1B1F2B;
+    width: 26px;
+    height: 26px;
+    text-align: start;
+    align-items: start;
+    justify-content: space-between;
+    padding: 33px 0;
+}
+
+.square .license .small {
+    width: 509px;
+    height: 24px;
+    color: #A6A6A6;
+    font-size: 16px;
+    letter-spacing: -1%;
+    font-weight: 400;
+}
+
+.button .btn-green {
+    background-color: #286562;
+}
+
+.button .btn-green-lite p {
+    color: #286562;
+}
+
+.button .btn-green p {
+    color: #fff;
+}
+
+.button .btn-green-lite {
+    background-color: #E0F0E5;
+}
+
+.square .button .btn-green,
+.square .button .btn-green-lite {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 235px;
+    height: 58px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.button .btn-green p 
+.button .btn-green-lite p {       
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
 }

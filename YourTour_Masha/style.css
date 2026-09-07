@@ -1,0 +1,283 @@
+body {
+    background-color: rgba(249, 247, 244, 1);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.start {
+    background-image: url(/YourTour_Masha/img/header-img.svg);
+    height: 831px;
+    top: 1030px;
+    background-position: center;
+}
+
+.text-overlay {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 1);
+    gap: 50px; /*это текст под header*/
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 29px 376px;
+}
+
+.header a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+}
+
+
+h1, h2, h3, p, a {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+h1 {
+    font-size: 96px;
+    text-align: center;
+    line-height: 104.64px;
+    letter-spacing: 2%;
+}
+
+h2 {
+    font-size: 59px;
+    color: rgba(27, 31, 43, 1);
+    line-height: 73.16px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28.4px; 
+}
+
+button {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(27, 31, 43, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.tours {
+    margin: 135px 0;
+}
+
+.tabs-menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 35px 0;
+}
+
+.tabs-menu a{
+    color: rgba(27, 31, 43, 1);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.tours .card img{
+    width: 370px;
+    height: 531px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.tours .card {
+    display: flex;
+    width: 370px;
+    height: 531px;
+    box-sizing: border-box;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 50px;
+    margin: 0 30px; /*подвинула карточку под менюшку*/
+    
+}
+
+.card{
+    display: flex;
+    color: #fff;
+    position: relative; /*привязала текст к картинке*/
+    overflow: hidden;
+    border-radius: 50px;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.tours .card h3 {
+    text-align: start;
+    padding: 50px 15px;
+    width: 270px;
+    font-weight: 500;
+}
+
+.small {
+    width: 270px;
+    height: 24px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.card-link {
+    display: flex;
+    margin-top: 200px;
+    padding: 50px 15px;
+    max-width: 200px;
+    color: #fff;
+    font-size: 23px;
+    line-height: 28.06px; 
+    font-weight: 700;
+    background: none;
+    gap: 16px;
+} 
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin: auto;
+    row-gap: 30px;
+    margin: 100px auto;   
+}
+
+.complete-tours {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.complete-tours p {
+    padding: 30px 0 0;
+    color: #A6A6A6;
+}
+
+.complete-tours .text {
+    padding: 35px;
+}
+
+.square {
+    display: flex;
+    width: 1170px;
+    row-gap: 33px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 65px auto;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 70px 70px;
+}
+
+.square .p-normall {
+    display: block;
+    text-align: start;
+    width: 100%;
+    color: #1B1F2B;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 8px 0px;
+}
+
+.square input{
+    width: 500px;
+    height: 68px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #A6A6A6;
+    font-weight: 400;
+    background-color: #F9F7F4;
+    border-radius: 10px;
+    padding: 0 20px;
+    border-color: #F4F0E9;
+    border-width: 1px;
+    border-style: groove;
+}
+
+.square textarea {
+    width: 1030px;
+    height: 152px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #A6A6A6;
+    font-weight: 400;
+    background-color: #F9F7F4;
+    border-radius: 10px;
+    padding: 0 30px;
+    border-color: #F4F0E9;
+    border-width: 1px;
+    border-style: groove;
+}
+
+.square .is-adult {
+    display: flex;
+    width: 100%;
+    font-size: 400;
+    font-size: 20px;
+    text-align: start;
+    color: #1B1F2B;
+    padding: 8px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.square .adult-radio {
+    display: flex;
+    width: 26px;
+    height: 26px;
+    text-align: start;
+    align-items: start;
+    justify-content: space-between;
+    border-width: 3px;
+    border-color: #1B1F2B;
+    row-gap: 31px;
+}
+
+.square .small {
+    /*display: flex;*/
+    color: #1B1F2B;
+    width: 100%;
+    font-size: 400;
+    font-size: 20px;
+    text-align: start;
+    padding: 22px 11px;
+}

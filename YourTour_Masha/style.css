@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 29px 376px;
+    padding: 29px 300px;
 }
 
 .header a{
@@ -189,7 +189,7 @@ button {
 }
 
 .complete-tours .text {
-    padding: 35px;
+    padding: 0 0 35px;
 }
 
 .square {
@@ -234,8 +234,9 @@ button {
 }
 
 .square textarea {
-    width: 1030px;
+    width: 1110px;
     height: 152px;
+    resize: none;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color: #A6A6A6;
@@ -251,13 +252,13 @@ button {
 .square .is-adult {
     display: flex;
     width: 100%;
-    font-size: 400;
+    font-weight: 400;
     font-size: 20px;
     text-align: start;
     color: #1B1F2B;
-    padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 33px 0 0 0;
 }
 
 .square .adult-radio {
@@ -267,7 +268,7 @@ button {
     text-align: start;
     align-items: start;
     justify-content: space-between;
-    padding: 0 0 8px;
+    gap: 5px;
 }
 
 .square .small {
@@ -277,27 +278,58 @@ button {
     font-size: 20px;
     text-align: start;
     padding: 24px 11px;
+    
+}
+
+.square .adult-radio input[type="radio"] {
+    transform: scale(1.6);
+    margin-right: 5px;  
+    cursor: pointer;
+    accent-color: #000000;
 }
 
 .square .license {
     display: flex;
     color: #1B1F2B;
-    width: 26px;
-    height: 26px;
-    text-align: start;
-    align-items: start;
-    justify-content: space-between;
-    padding: 33px 0;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 33px 0 0 0;
 }
 
 .square .license .small {
     width: 509px;
     height: 24px;
     color: #A6A6A6;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: -1%;
-    font-weight: 400;
+    font-weight: 200;
+    padding-left: 10px;
 }
+
+.square .license input[type="checkbox"] {
+    display: none;
+}
+
+.square .license .checkbox-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px; 
+    height: 26px;               
+    border: 2px solid #000000;  
+    border-radius: 6px;     
+    background-color: #ffffff; 
+    box-sizing: border-box;
+    margin: 24px 0;
+}
+
+.square .license input[type="checkbox"]:checked + label .checkbox-box::before {
+    content: "✓︎";     
+    color: #000000;            
+    font-size: 18px;         
+    font-weight: bold;  
+}
+
 
 .button .btn-green {
     background-color: #286562;
@@ -324,12 +356,20 @@ button {
     height: 58px;
     border-radius: 10px;
     box-sizing: border-box;
-    margin: 0;
+    margin: 33px 30px 30px 0 ;
+    padding: 0 0 29px 0;
 }
 
 .button .btn-green p 
-.button .btn-green-lite p {       
+.button .btn-green-lite p { 
+    display: flex;    
     font-weight: 400;
     font-size: 20px;
-    text-align: center;
+    justify-content: space-between;
+}
+
+.square .button {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0px;
 }

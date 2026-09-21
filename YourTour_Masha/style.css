@@ -179,7 +179,7 @@ button {
 .complete-tours {
     align-items: center;
     text-align: center;
-    padding: 0;
+    padding: 0 0 100px;
     
 }
 
@@ -373,3 +373,53 @@ button {
     flex-direction: row;
     row-gap: 0px;
 }
+
+.otzivi .p-normall {
+    text-align: center;
+    color: #A6A6A6;
+    padding: 30px 0px;    
+}
+
+.comment-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.square-otzivi1 {
+    width: 570px;
+    height: 673px;
+    background-color: #F4F0E9;
+    border-radius: 50px;
+}
+
+.square-otzivi2 {
+    width: 570px;
+    height: 673px;
+    background-color: #F4F0E9;
+    border-radius: 50px;
+}
+
+.comment-container .p-big{ 
+    color: #1B1F2B;
+    font-weight: 700;
+    text-align: start;
+    padding: 40px 40px;
+    font-size: 22px;
+    letter-spacing: 0%;
+    line-height: 122%;
+}
+
+.square-otzivi1 h3 {
+    padding: 266px 40px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.square-otzivi2 h3 {
+    padding: 60px 40px;
+    font-weight: 500;
+    font-size: 35px;
+}
+

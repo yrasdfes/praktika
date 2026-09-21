@@ -649,6 +649,20 @@ button {
 
 .square3 .p-small {
     display: flex;
-    padding: 0 10px 0 538px;
-    gap: 61px;
+    padding: 0 40px 0 538px;
+    gap: 60px;
+}
+
+.square3 .p-small .social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    text-decoration: none;
+}
+
+.square3 .p-small .social-item p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000; 
 }

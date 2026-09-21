@@ -78,7 +78,7 @@ p {
 }
 
 button {
-    width: 120px;
+    width: auto;
     height: 34px;
     border-radius: 10px;
     border: none;
@@ -553,7 +553,7 @@ button {
 
 .photo1 ul {
     position: absolute;
-    bottom: 140px;
+    bottom: 200px;
     left: 60px;
     z-index: 2;
     margin: 0; 
@@ -592,3 +592,63 @@ button {
     flex-shrink: 0;  
 }
 
+.come-to-trip {
+    display: flex; 
+    align-items: flex-start;
+    padding: 0 574.5px 135px;
+}
+
+.come-to-trip img {
+    width: 370px;
+    height: 370px;
+    border-radius: 50px;
+}
+
+.come-to-trip h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.come-to-trip p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #A6A6A6;
+    letter-spacing: 2.5%;
+}
+
+.come-to-trip .trip-text {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;               
+    max-width: 500px; 
+    margin: 104px 30px 180px;
+}
+
+.square3 {
+    display: flex;
+    width: 1920px;
+    row-gap: 88px;
+    background-color: #F4F0E9;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 5px 376px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.square3 .p-normall {
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #A6A6A6;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.square3 .p-small {
+    display: flex;
+    padding: 0 10px 0 538px;
+    gap: 61px;
+}

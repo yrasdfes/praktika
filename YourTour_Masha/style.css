@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 29px 300px;
+    padding: 29px 376px;
 }
 
 .header a{
@@ -74,12 +74,12 @@ h3 {
 
 p {
     font-size: 20px;
-    line-height: 28.4px; 
+    line-height: 28.4px;
 }
 
 button {
-    width: auto;
-    height: auto;
+    width: 120px;
+    height: 34px;
     border-radius: 10px;
     border: none;
     padding: 5px 20px;
@@ -449,3 +449,43 @@ button {
     position: relative;
 }
 
+.photo {
+    padding: 100px 0;
+}
+
+.photo p {
+    text-align: center;
+    color: #A6A6A6;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0 100px;
+}
+
+.photo img {
+    border-radius: 50px;
+    margin: 0 0 20px 26px;
+}
+
+.photo-square img{
+    width: 349.16px;
+    height: 301px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.history {
+    padding: 100px 0;
+}
+
+.history p{
+    padding: 30px 0 100px;
+    text-align: center;
+    color: #A6A6A6;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.history img {
+    border-radius: 50px;
+    margin: 0 375px 50px;
+}

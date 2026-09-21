@@ -412,14 +412,40 @@ button {
 }
 
 .square-otzivi1 h3 {
-    padding: 266px 40px;
+    padding: 246px 40px 8px 40px;
     font-weight: 500;
     font-size: 35px;
 }
 
 .square-otzivi2 h3 {
-    padding: 60px 40px;
+    padding: 40px 40px 8px 40px;
     font-weight: 500;
     font-size: 35px;
+}
+
+.square-otzivi1 p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #A6A6A6;
+    padding: 0px 40px;
+}
+
+.square-otzivi2 p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #A6A6A6;
+    padding: 0px 40px;
+}
+
+.otzivi img {
+    position: relative;
+    display: flex;
+    border-radius: 100px;
+    bottom: 80px; 
+    left: 450px; 
+}
+
+.square-otzivi1 .square-otzivi2 {
+    position: relative;
 }
 

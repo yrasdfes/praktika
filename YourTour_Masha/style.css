@@ -572,6 +572,13 @@ button:active {
     padding: 100px 0 20px;
 }
 
+.gallery-fixed {
+    width: 100%;
+    max-width: 1920px; /* Фиксируем под твой рабочий масштаб */
+    margin: 0 auto;    /* Центрирует всю твою готовую мозаику при любом зуме */
+}
+
+
 .photo p {
     text-align: center;
     color: #A6A6A6;
@@ -762,7 +769,11 @@ button:active {
 .come-to-trip {
     display: flex; 
     align-items: flex-start;
-    padding: 0 574.5px 135px;
+    padding: 0 0 135px 0; 
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .come-to-trip img {

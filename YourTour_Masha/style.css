@@ -285,13 +285,76 @@ button:active {
     background-color: #fff;
     border-radius: 50px;
     text-align: center;
-    align-items: center;
+    /* align-items: center;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row; */
     margin: 65px auto;
-    flex-wrap: wrap;
-    row-gap: 33px;
+    /* flex-wrap: wrap; */
     padding: 70px 70px;
+}
+
+.booking input{
+    display: flex;
+    margin: 0 20px;
+}
+
+.record-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square select {
+    width: 540px;
+    height: 69px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #1B1F2B;
+    font-weight: 400;
+    background-color: #F9F7F4;
+    border-radius: 10px;
+    padding: 0 20px;
+    border-color: #F4F0E9;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.square .select {
+    position: relative;
+    display: inline-block;
+    width: 540px;
+    margin: 0 20px;
+}
+
+.square select:focus {
+    accent-color: #ad7827;
+}
+
+.square select option {
+    background-color: #F9F7F4; 
+    color: #1B1F2B;            
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 15px 20px;
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.square .select::after {
+    content: "";
+    position: absolute;
+    right: 24px;  
+    top: 50%;      
+    transform: translateY(-30%); 
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #000000;  
+    border-bottom: 2px solid #000000; 
+    transform: translateY(-50%) rotate(45deg);
+    pointer-events: none; 
 }
 
 .square .p-normall {
@@ -302,6 +365,7 @@ button:active {
     font-size: 20px;
     font-weight: 400px;
     padding: 8px 0px;
+    margin: 0 20px;
 }
 
 .square input{
@@ -309,7 +373,7 @@ button:active {
     height: 68px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    color: #A6A6A6;
+    color: #1B1F2B;
     font-weight: 400;
     background-color: #F9F7F4;
     border-radius: 10px;
@@ -325,14 +389,15 @@ button:active {
     resize: none;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    color: #A6A6A6;
+    color: #1B1F2B;
     font-weight: 400;
     background-color: #F9F7F4;
     border-radius: 10px;
-    padding: 0 30px;
+    padding: 20px 20px;
     border-color: #F4F0E9;
     border-width: 1px;
     border-style: groove;
+    margin: 0 20px;
 }
 
 .square .is-adult {
@@ -345,6 +410,7 @@ button:active {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 33px 0 0 0;
+    margin: 0 20px;
 }
 
 .square .adult-radio {
@@ -355,6 +421,7 @@ button:active {
     align-items: start;
     justify-content: space-between;
     gap: 5px;
+    margin: 0 20px;
 }
 
 .square .small {
@@ -380,6 +447,7 @@ button:active {
     align-items: flex-start;
     gap: 12px;
     padding: 33px 0 0 0;
+    margin: 0 20px;
 }
 
 .square .license .small {
@@ -423,6 +491,7 @@ button:active {
     background-color: #ffffff; 
     box-sizing: border-box;
     margin: 24px 0;
+    
 }
 
 .square .license input[type="checkbox"]:checked + label .checkbox-box::before {
@@ -458,7 +527,7 @@ button:active {
     height: 58px;
     border-radius: 10px;
     box-sizing: border-box;
-    margin: 33px 30px 30px 0 ;
+    margin: 33px 20px 30px 20px ;
     padding: 0 0 29px 0;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
